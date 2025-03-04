@@ -16,7 +16,7 @@ import {
   Droplets,
   Wind,
   AlertTriangle,
-  Passport,
+  FileCheck,
   Plane,
   Calendar,
   Map
@@ -226,7 +226,7 @@ export default function PreparationGuidePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <h3 className="text-xl font-semibold mb-4 flex items-center">
-                <Passport className="w-6 h-6 mr-2 text-primary" />
+                <FileCheck className="w-6 h-6 mr-2 text-primary" />
                 Required Documents
               </h3>
               <ul className="space-y-2">
