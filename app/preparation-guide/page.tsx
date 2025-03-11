@@ -126,7 +126,11 @@ export default function PreparationGuidePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="mb-6">
-              <PlaceholderImage className="rounded-lg w-full h-[200px]" />
+              <SafeImage 
+                src="/images/clothing.jpg"
+                alt="Kilimanjaro Clothing"
+                className="rounded-lg w-full h-[200px]" 
+              />
             </div>
             <h3 className="text-xl font-semibold mb-4">Clothing</h3>
             <ul className="space-y-2">
@@ -142,7 +146,11 @@ export default function PreparationGuidePage() {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="mb-6">
-              <PlaceholderImage className="rounded-lg w-full h-[200px]" />
+              <SafeImage 
+                src="/images/equipment.jpg"
+                alt="Kilimanjaro Equipment"
+                className="rounded-lg w-full h-[200px]" 
+              />
             </div>
             <h3 className="text-xl font-semibold mb-4">Equipment</h3>
             <ul className="space-y-2">
